@@ -164,6 +164,11 @@ player1=input("Enter Player1 Name")
 player2=input("Enter Player2 Name")
 dice=0
 set=0
+print(board[0][0] , "|" , board[0][1] , "|" , board[0][2])
+print("----------")
+print(board[1][0] , "|" , board[1][1] , "|" , board[1][2])
+print("----------")
+print(board[2][0] , "|" , board[2][1] , "|" , board[2][2])
 roll_dice(dice)
 game_history()
 
